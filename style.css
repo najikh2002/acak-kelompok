@@ -54,6 +54,7 @@ label {
   border-radius: 5px;
   border: none;
   font-size: 20px;
+  touch-action: manipulation;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -73,6 +74,7 @@ button {
   font-weight: 600;
   letter-spacing: 2px;
   margin: 1.3vh 0 2.3vh 0;
+  touch-action: manipulation;
 }
 
 button:hover {
