@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acak Kelompok Siswa</title>
+    <link rel="icon" href="gear.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ACAK KELOMPOK SISWA</h1>
+      <div class="row">
+        <div class="col">
+          <label for="inputSiswa"><strong>Jumlah Siswa</strong></label>
+          <input type="number" class="input" id="inputSiswa" />
+        </div>
+        <div class="col">
+          <label for="inputKelompok"><strong>Jumlah Kelompok</strong></label>
+          <input type="number" class="input" id="inputKelompok" />
+        </div>
+      </div>
+      <button onclick="generateTeams()">ACAK!</button>
+      <div id="teamContainer" class="teamContainer"></div>
+      <small>&copy; 2023 - Hizbullah Najihan</small>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

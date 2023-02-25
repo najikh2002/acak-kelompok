@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quick-Sand", sans-serif;
+}
+
+body {
+  background-color: #acedd4;
+}
+
+h1 {
+  text-align: center;
+  color: #406657;
+  letter-spacing: 1.8px;
+  margin-bottom: 6vh;
+}
+
+.container {
+  height: 95vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 5vh 15vw;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.col {
+  margin: 0 2vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+label {
+  text-align: center;
+  color: #579c82;
+}
+
+.input {
+  height: 7vh;
+  width: 20vw;
+  text-align: center;
+  font-weight: 600;
+  color: #579c82;
+  margin: 0.8rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  appearance: none;
+}
+
+button {
+  display: block;
+  background-color: #70a893;
+  height: 8vh;
+  width: 12vw;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #b0e6d0;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 1.3vh 0 2.3vh 0;
+}
+
+button:hover {
+  background-color: #579c82;
+  transition: 0.5s;
+}
+
+.teamContainer {
+  background-color: #406657;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 20vh;
+  overflow: auto;
+  padding: 2vh 4vw;
+  width: 80vw;
+  height: 40vh;
+}
+
+.teamContainer::-webkit-scrollbar-thumb {
+  color: #579c82;
+  background-color: #406657;
+  border-radius: 12px;
+}
+
+p {
+  background-color: #82caae;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding: 5vh 2vw;
+  border-radius: 11px;
+  margin: 0.8rem 0;
+  width: 20vw;
+  color: #3a534a;
+}
+
+small {
+  color: #579c82;
+  position: absolute;
+  bottom: 3vh;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 2vh 5vh;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+  .input {
+    margin: 1.5vh 0;
+    width: 70vw;
+    font-size: 30px;
+  }
+  button {
+    width: 30vw;
+  }
+  .teamContainer {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 50vh;
+    width: 100vw;
+    align-items: center;
+  }
+  p {
+    margin: 0;
+    width: 80vw;
+    margin-bottom: 3vh;
+    padding: 2vh 2vw;
+    text-align: center;
+  }
+  .small;
+}
