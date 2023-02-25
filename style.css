@@ -141,7 +141,7 @@ small {
   .teamContainer {
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 50vh;
+    height: 70vh;
     width: 100vw;
     align-items: center;
   }
@@ -152,5 +152,4 @@ small {
     padding: 2vh 2vw;
     text-align: center;
   }
-  .small;
 }
