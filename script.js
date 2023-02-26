@@ -50,7 +50,7 @@ function generateTeams() {
   for (let i = 0; i < jumlahKelompok; i++) {
     const teamDiv = document.createElement("p");
     teamDiv.innerHTML =
-      "<h2>Kelompok " + (i + 1) + "</h2><br>" + kelompok[i].join(", ");
+      "<h3>Kelompok " + (i + 1) + "</h3><br>" + kelompok[i].join(", ");
     teamContainer.appendChild(teamDiv);
   }
 }
